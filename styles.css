@@ -1,0 +1,35 @@
+:root
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tic-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    width: 650px;
+    height: 600px;
+}
+.tic-grid div
+{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 1px solid;
+    font-size: 40px;
+}
+button
+{
+    font-size: 32px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
